@@ -1,0 +1,144 @@
+[
+  {
+    "id": 0,
+    "brand": "Apple",
+    "model": "iPhone 11 Pro 256GB Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/a/p/apple_iphone_11_64gb_black_0_3.jpg",
+    "price": 38999
+
+  },
+  {
+    "id": 1,
+    "brand": "Samsung",
+    "model": "Galaxy A51 6/128Gb Metallic Silver",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/s/a/samsung_galaxy_a51_464gb_metallic_silver_07_1_1.jpg",
+    "price": 8299
+  },
+  {
+    "id": 2,
+    "brand": "Samsung",
+    "model": "Galaxy S20 Ultra 12/128Gb Gray ",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/s/a/samsung_galaxy_s20_ultra_12-512gb_gray_4.jpg",
+    "price": 33999
+  },
+  {
+    "id": 3,
+    "brand": "Apple",
+    "model": "iPhone 8 Plus 64Gb Space Grey",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/a/p/apple_iphone_8_plus_64gb_space_grey_3_.jpg",
+    "price": 15999
+  },
+  {
+    "id": 4,
+    "brand": "Samsung",
+    "model": "Galaxy A31 4/64Gb Prism Crush Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/s/a/samsung_galaxy_a31_prism_crush_black_07_1.jpg",
+    "price": 6199
+  },
+  {
+    "id": 5,
+    "brand": "Apple",
+    "model": "iPhone XR 128Gb Yellow",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/a/p/apple_iphone_xr_yellow_07_1.jpg",
+    "price": 38999
+  },
+  {
+    "id": 6,
+    "brand": "OPPO",
+    "model": "Reno4 Lite 8/128Gb Matte Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/o/p/oppo-reno4_black_1.jpg",
+    "price": 9999
+  },
+  {
+    "id": 7,
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9 4/128GB Midnight Grey",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/x/i/xiaomi_redmi_note_9_4128gb_midnight_grey.jpg",
+    "price": 38999
+  },
+  {
+    "id": 8,
+    "brand": "Huawei",
+    "model": "P40 lite 6/128Gb Green",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/p/4/p40lite_green_01.jpg",
+    "price": 7499
+  },
+  {
+    "id": 9,
+    "brand": "Honor",
+    "model": "10 Lite 3/64Gb Sapphire",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/c/o/copy_honor_10_lite_3_64gb_global_black_5cc7ed362e63d_images_12056084928.jpg",
+    "price": 4999
+  },
+  {
+    "id": 10,
+    "brand": "Nokia",
+    "model": "2.2 2/16Gb Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/n/o/nokia_2.2_216gb_black_0.jpg",
+    "price": 2499
+  },
+  {
+    "id": 11,
+    "brand": "Realme",
+    "model": "C11 2/32Gb Grey",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/r/e/realme_c11_2_32gb_grey_01.jpg",
+    "price": 38999
+  },
+  {
+    "id": 12,
+    "brand": "vivo",
+    "model": "Y19 4/128Gb Magnetic Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/v/i/vivo_y19_4128gb_magnetic_black_06.jpg",
+    "price": 5555
+  },
+  {
+    "id": 13,
+    "brand": "ZTE",
+    "model": "Blade A7 2020 3/64GB Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/z/t/zte_blade_a7_2020_232gb_black_0_1.jpg",
+    "price": 3199
+  },
+  {
+    "id": 14,
+    "brand": "Philips",
+    "model": "S561 Dual Sim Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/p/h/philips_s561_dual_sim_black_01.jpg",
+    "price": 2899
+  },
+  {
+    "id": 15,
+    "brand": "Tecno",
+    "model": "Spark 5 Pro (KD7) 4/64Gb Dual Sim Seabed Blue",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/t/e/tecno_spark_5_pro_kd7_4_64gb_dual_sim_seabed_blue.jpg",
+    "price": 38999
+  },
+  {
+    "id": 16,
+    "brand": "Samsung",
+    "model": "Galaxy M31s 6/128Gb Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/s/m/sm-m317_006_r-perspective_black_-1.jpg",
+    "price": 7799
+  },
+  {
+    "id": 17,
+    "brand": "Xiaomi",
+    "model": "Mi Note 10 Lite 6/128GB Midnight Black",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/x/i/xiaomi_mi_note_10_lite_664gb_midnight_black_1__1.jpg",
+    "price": 9499
+  },
+  {
+    "id": 18,
+    "brand": "Huawei",
+    "model": "P Smart Pro Chrystal",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/p/_/p_smart_pro_001.jpg",
+    "price": 6199
+  },
+  {
+    "id": 19,
+    "brand": "Doogee",
+    "model": "X95 2/16Gb Blue",
+    "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/1440x1080/62defc7f46f3fbfc8afcd112227d1181/d/o/doogee_x95_216gb_blue.jpg",
+    "price": 2389
+  }
+]
+
