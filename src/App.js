@@ -26,7 +26,7 @@ class App extends Component {
     }
 }
 const mapStateToProps = (state) => ({
-    phones: state.items
+    phones: state.phones
 });
 const mapDispatchToProps = (dispatch) => ({
     setPhone: phones => dispatch(setPhone(phones))

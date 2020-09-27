@@ -1,9 +1,7 @@
 import {combineReducers} from "redux";
-import {phoneReducers} from "./phoneReducer";
-
-
+import phoneReducer from "./phoneReducer";
 
 export default combineReducers({
-    phoneReducers: phoneReducers
+    phoneReducer
 
 })

@@ -9,7 +9,7 @@ let initialState ={
     items: null
 }
 
-export const phoneReducers = (state= initialState, action) =>{
+export default (state= initialState, action) =>{
     switch (action.type){
         case SET_PHONES:
         return{
