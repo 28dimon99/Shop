@@ -1,7 +1,7 @@
 
 
 const SET_PHONES = "SET_PHONES";
-/*const SET_IS_READY = "SET_IS_READY";*/
+const SET_IS_READY = "SET_IS_READY";
 
 let initialState ={
     isReady: false,
@@ -13,19 +13,20 @@ export default (state= initialState, action) =>{
         return{
             ...state,
             items: action.payload,
-           /* isReady: true*/
+            isReady: true
         };
-     /*   case SET_IS_READY:
+        case SET_IS_READY:
             return {
                 ...state,
                 isReady: action.payload
-            };*/
+            };
         default:
             return state;
     }
 };
 //action
-export const setPhone = (phones) => ({
+export const setPhone = (items) => ({
     type: SET_PHONES,
-    payload: phones
+    payload: items
 })
+

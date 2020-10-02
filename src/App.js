@@ -1,41 +1,43 @@
 import React, {Component} from 'react';
 import './App.css';
 import * as axios from "axios/index"
-import {setPhone} from "./redux/phoneReducer";
+
 import {connect} from "react-redux";
 import Menu from "./components/Menu/Menu";
 import PhoneCard from "./components/PhoneCard/PhoneCard";
 import {Container, Card} from "semantic-ui-react";
+import {setPhone} from "./redux/phoneReducer";
 
 
 
 class App extends Component {
-    componentWillMount() {
+    componentDidMount() {
         const {setPhone} = this.props;
-        axios.get('http://localhost:3000/phone.json').then(response => {
-            console.log(response.data.items)
-            setPhone(response.data.items)
+        axios.get('/phone.json').then(response => {
+            debugger
+            setPhone(response.data)
         });
     }
 
-    shouldComponentUpdate(nextProps, nextState, nextContext) {
+  /*  shouldComponentUpdate(nextProps, nextState, nextContext) {
         if (this.props.phones !== nextProps.phones) {
             return true
-        }else if(this.props.state !== nextState){
+        }
+        else if(this.props.state !== nextState.state){
             return true
         }
-    }
+    }*/
 
     render() {
-        const {phones, /*isReady*/} = this.props
+        const {phones, isReady} = this.props
 
         return (
             <Container>
                     <Menu/>
                 <Card.Group itemsPerRow={4}>
-                    {/*!isReady
+                    {!isReady
                         ? 'Загрузка...'
-                        :*/
+                        :
                         phones && phones.map(p => (
                         /*<PhoneCard {...p}/>*/
                         <li>
@@ -47,12 +49,14 @@ class App extends Component {
         );
     }
 }
-const mapStateToProps = (phones) => ({
-    phones: phones.items,
+const mapStateToProps = (state) => ({
+    phones: state.phones,
+
 
 });
 const mapDispatchToProps = (dispatch) => ({
-    setPhone: phones => dispatch(setPhone(phones))
+    setPhone: phones => dispatch(setPhone(phones)),
+
 
 })
 export default connect(mapStateToProps, mapDispatchToProps)(App);

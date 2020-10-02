@@ -1,6 +1,8 @@
 import {combineReducers} from "redux";
-import phoneReducer from "./phoneReducer";
+
 import cardReducer from "./cardReducer";
+import phoneReducer from "./phoneReducer";
+
 
 
 export default combineReducers({
