@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect} from 'react';
 import './App.css';
 import * as axios from "axios/index"
 
@@ -13,8 +13,8 @@ import {setPhone} from "./redux/phoneReducer";
 class App extends Component {
     componentDidMount() {
         const {setPhone} = this.props;
-        axios.get('/phone.json').then(response => {
-            debugger
+        axios.get('http://localhost:3000/phones').then(response => {
+           
             setPhone(response.data)
         });
     }
@@ -30,7 +30,7 @@ class App extends Component {
 
     render() {
         const {phones, isReady} = this.props
-
+console.log(this.props);
         return (
             <Container>
                     <Menu/>
@@ -50,7 +50,8 @@ class App extends Component {
     }
 }
 const mapStateToProps = (state) => ({
-    phones: state.phones,
+    phones: state.phoneReducer.items,
+    isReady: state.phoneReducer.isReady,
 
 
 });

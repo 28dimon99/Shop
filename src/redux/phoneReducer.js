@@ -5,7 +5,7 @@ const SET_IS_READY = "SET_IS_READY";
 
 let initialState ={
     isReady: false,
-    items: []
+    items: null
 }
 export default (state= initialState, action) =>{
     switch (action.type){
